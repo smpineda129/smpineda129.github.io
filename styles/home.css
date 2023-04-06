@@ -1,0 +1,53 @@
+section.main-section {
+    min-height: 30em !important;
+}
+
+section.second-section-container {
+    display: flex;
+}
+
+.santiago-description-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 30em;
+}
+
+.img-santiago-container {
+    display: flex;
+    background-color: #171720;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 30em;
+}
+
+.background-santiago {
+    z-index: 1;
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 15px;
+    -webkit-box-shadow: 10px 10px 5px 8px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 10px 5px 8px rgba(255,255,255,1);
+    box-shadow: 10px 10px 23px -10px rgba(255,255,255,1);
+}
+
+.img-santiago{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.code-learning {
+    padding: 2em 0em;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img.logo-code {
+    width: 7%;
+}
