@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Venta</title>
+    <link rel="stylesheet" href="../styles/styles-base-empleados.css">
+</head>
+
+<body>
+    <header>
+        <div class="BarraSuperior" class="Avatar">
+            <div>
+                <img src="../sources/logo.svg" alt="" class="logo-top"/>
+            </div>
+            <nav>
+                <a href="">BASE DE EMPLEADOS</a>
+                <a href="../Index.html">PORTAFOLIO</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <h1>Empleados</h1>
+        <div id="container">
+            <form id="form">
+                <h2>Añadir un empleado</h2> 
+                <input type="text" id="nombre" placeholder="Nombre"> 
+                <input type="text" id="apellido" placeholder="Apellido"> 
+                <input type="text" id="edad" placeholder="Edad"> 
+                <select name="cargo" id="cargo" placeholder="Cargo">
+                    <option value="" disabled selected>Seleccione un cargo</option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="Asesor">Asesor</option>
+                    <option value="Desarrollador">Desarrollador</option>
+                </select>
+                <div class="button-form-container">
+                    <button type="submit" id="submit-btn">Guardar</button> 
+                    <button type="button" id="cancel-btn">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <h1>Lista de empleados</h1> 
+        <div id="container" class="table-container">
+            <table>
+                <thead>
+                    <p id="numero-empleados"></p>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th class="edad-title">Edad</th>
+                        <th>Cargo</th>
+                        <th class="Acciones-title">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"> </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div class="separador"></div>
+        <div class="footer">
+        <div class="footer-menu">
+            <h3>
+                Menu:
+            </h3>
+            <ul>
+                <li>Inicio</li>
+                <li>Contacto</li>
+                <li>Tienda</li>
+            </ul>
+        </div>
+        <div>
+            <div class="social-container">
+                <div class="social-title">
+                    <h2>Social</h2>
+                </div>
+                <div class="social-icons">
+                    <img src="../sources/instagram.png" alt="">
+                    <img src="../sources/mail.png" alt="">
+                    <img src="../sources/facebook.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="../sources/logo.svg" class="logo-inferior">
+        </div>
+        </div>
+    </footer>
+    <script src="../scripts/script-base-empleados.js"></script>
+</body>
+
+</html>
