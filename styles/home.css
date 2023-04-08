@@ -1,3 +1,18 @@
+h1{
+    font-size: 40px;
+}
+
+a{
+    color: white; 
+    text-decoration: none; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 section.main-section {
     min-height: 30em !important;
 }
@@ -7,6 +22,7 @@ section.second-section-container {
 }
 
 .santiago-description-container {
+    padding: 0px 50px 0px 30px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -35,9 +51,13 @@ section.second-section-container {
 }
 
 .img-santiago{
-    width: 150px;
-    height: 150px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    background-color: yellow;
 }
 
 .arrow-slider {
@@ -51,7 +71,7 @@ section.second-section-container {
 
 .container {
     width: 86%;
-    min-height: 100vh;
+    min-height: 90vh;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
@@ -84,13 +104,31 @@ section.second-section-container {
     pointer-events: unset;
 }
 
-.slider-img{
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
+.column-cw{
+    height: 100%;
+    background-color: #ab155c;
+    border-radius: 0px 35px 35px 0px;
+}
+
+section.slider-body.slider-body-show > div {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column-cw-experience {
+    padding: 0px 30px;
+    background: linear-gradient(90deg, rgba(107,29,78,1) 0%, rgba(79,11,55,1) 38%, rgba(55,5,70,1) 100%);
+    border-radius: 35px 0px 0px 35px;
+}
+
+.img-cw {
+        padding: 22px;
+        height: 230px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
 }
 
 .code-learning {
